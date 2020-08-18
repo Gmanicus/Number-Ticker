@@ -3,3 +3,6 @@ A Javascript function that takes an HTML element with text and increments all of
 
 # Usage
 `tickUp(myElement, 200, 1000); // Ticker numbers in myElement.innerHTML 200 times in 1000ms`
+
+# Example
+![tickUp Example](https://i.imgur.com/uOERnjZ.gif)
