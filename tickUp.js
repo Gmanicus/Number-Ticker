@@ -3,8 +3,7 @@ function tickUp(element, iterations = 200, duration = 1000) {
     // Yes, I know. This sets the variable every time when it really doesn't need to be. Apparently RegExp() doesn't like this regex with respective changes D:<
     var regexPat = /[+-]?\d+(?:\.\d+)?/g;
 
-    var string = "Hello, I am 123 456."; //element.innerHTML;
-    console.log(string);
+    var string = element.innerHTML;
     
     var number_values = [];
     var increment_values = [];
